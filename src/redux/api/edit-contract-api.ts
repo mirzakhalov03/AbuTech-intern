@@ -1,8 +1,8 @@
-const base_url = import.meta.env.VITE_BASE_URL
+// const base_url = import.meta.env.VITE_BASE_URL
 
 export const EditContract = async (id: number, data: any) => {
         try {
-            const response = await fetch(`${base_url}/contracts/${id}`, {
+            const response = await fetch(`https://dev.api-erp.najotedu.uz/api/staff/contracts/${id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",

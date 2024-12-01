@@ -1,11 +1,11 @@
 import { CreateContract } from "../../types";
 
-const base_url = import.meta.env.VITE_BASE_URL
+// const base_url = import.meta.env.VITE_BASE_URL
 
 
 export const createContract = async (data: CreateContract) => {
     try {
-      const response = await fetch(`${base_url}/contracts/create`, {
+      const response = await fetch(`https://dev.api-erp.najotedu.uz/api/staff/contracts/create`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
