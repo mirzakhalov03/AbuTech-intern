@@ -1,0 +1,43 @@
+.contracts__wrapper{
+    width: 100%;
+    margin-top: 30px;
+    height: 800px;
+    border-radius: 12px;
+    border: 1px solid #EDEDED;
+    overflow: hidden;
+
+
+    .topBar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 24px;
+        background-color: #FBFBFB;
+
+        .search{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            gap: 5px;
+        }
+        .input{
+            background-color: transparent;
+            padding: 8px 12px;
+            outline: none;
+            // width: 150px;
+            border: none;
+        }
+
+
+        button {
+            padding: 8px 20px;
+            border-radius: 10px;
+            color: white;
+            background-color: #0EB182;
+        }
+
+        
+    }
+}

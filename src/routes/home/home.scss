@@ -1,0 +1,39 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+
+    background-image: url(../../img/entry_hall.jpeg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .homeMain{
+        width: 66%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .loginBtn{
+        width: 100%;
+        padding: 8px 12px;
+        background-color: #0EB182;
+        color: white;
+        border-radius: 8px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        .homeMain{
+            width: 100%;
+            padding: 0px;
+            align-items: center;
+        }
+    }
+}
